@@ -1,0 +1,142 @@
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Background image */
+#backgroundImg{
+  /* The image used */
+  background: url("/static/img/landing3.jpg");
+  /* Full height */
+  height: 540px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling for h1 */
+
+.border-h1{
+  border-bottom:2px solid #0c8cb3;
+}
+
+/* Navbar */
+.text-sizing{
+  font-size: 1.2rem;
+  border-bottom: 2px solid #19719a;
+}
+.text-sizing:hover{
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.nav-pad{
+  padding-left: 50px;
+}
+
+/* Icons cards */
+
+.i-size{
+  font-size: 2.5rem;
+  color:#26b2dc;
+}
+
+.icon-padding{
+  padding-right: 10px;
+}
+
+.fordeler-size{
+  font-size: 2rem;
+}
+
+.instagram{
+  font-size: 4rem;
+  color:#d33aa4;
+}
+
+.instagram:hover{
+  color:#d30092;
+  transition: 0.5s;
+}
+
+.facebook{
+  font-size: 4rem;
+  color:#4db2e3;
+}
+
+.facebook:hover{
+  color:#007db9;
+  transition: 0.5s;
+}
+
+.mail{
+  font-size: 4rem;
+  color:#ffffff;
+}
+
+.mail:hover{
+  color:#949494;
+  transition: 0.5s;
+}
+.finish-flag{
+  padding-left: 15px;
+  font-size: 2.5rem;
+}
+
+
+/* Scroll animation */
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+/* End scroll animation */
