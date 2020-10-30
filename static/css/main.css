@@ -6,13 +6,10 @@ body, html {
 /* Background image */
 #backgroundImg{
   /* The image used */
-  background: url("/static/img/landing3.jpg");
-  /* Full height */
-  height: 540px;
-  /* Center and scale the image nicely */
-  background-position: center;
+  background: rgb(208,202,202);
+  background: linear-gradient(180deg, rgba(208,202,202,1) 0%, rgba(255,255,255,1) 100%);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* Styling for h1 */
