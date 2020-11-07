@@ -12,6 +12,10 @@ body, html {
   background-size: contain;
 }
 
+.navbar-toggler-icon{
+    font-size: 3rem;
+}
+
 /* Styling for h1 */
 
 .border-h1{
@@ -79,6 +83,10 @@ body, html {
 .finish-flag{
   padding-left: 15px;
   font-size: 2.5rem;
+}
+
+.check-mark{
+  color:#47ce2f;
 }
 
 
