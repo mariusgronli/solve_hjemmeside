@@ -38,6 +38,19 @@ body, html {
 
 /* Icons cards */
 
+.fordeler-pink{
+  border-bottom: 4px solid #ca2ba0;
+}
+.fordeler-yellow{
+  border-bottom: 4px solid #c8d41b;
+}
+.fordeler-blue{
+  border-bottom: 4px solid #18969c;
+}
+.fordeler-green{
+  border-bottom: 4px solid #3dde3a;
+}
+
 .i-size{
   font-size: 2.5rem;
   color:#26b2dc;
