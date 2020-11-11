@@ -25,7 +25,7 @@
 
   </head>
   <body>
-    <div id="backgroundImg">
+
       <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -44,22 +44,49 @@
             </ul>
           </div>
       </nav>
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-          {# <h1 class="banner-text">Team <br> Hjemmetrent</h1> #}
-          {# <h3>- <b>Med Sølve Sundrehagen</b></h3> #}
-          <img src="{% static "img/tekst.png" %}" class="img-fluid" alt="">
-        </div>
-        <div class="col-sm-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <img src="{% static "img/solve_banner_pic.jpg" %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-6"></div>
+              <div class="col-sm-2" style="height:50px;">
+                <a href="https://www.instagram.com/solvesundrehagen/" class="icon-banner"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="col-sm-2" style="height:50px;">
+                <a href="https://www.facebook.com/solvesundrehagen" class="icon-banner"><i class="fab fa-facebook"></i></a>
+              </div>
+              <div class="col-sm-2" style="height:50px;">
+                <a href="mailto:jorn_solve@hotmail.com" class="icon-banner"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div><!--End row-->
+            <div class="row" style="margin-top:40px;">
+              <div class="col-sm">
+                <img src="{% static "img/banner_text_2.jpg" %}" class="img-fluid" alt="">
+              </div>
+            </div><!--End row-->
+            <div class="row">
+              <div class="col-sm text-center">
+                <h1><b>- Med Sølve Sundrehagen</b></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm text-center">
+                <p class="lead">At vero eos et accusamus et iusto odio
+                  dignissimos ducimus qui blanditiis praesentium voluptatum
+                  deleniti atque corrupti quos dolores et quas molestias
+                  excepturi sint occaecati cu</p>
+                  <br>
+                  <a href="#medlem" class="btn btn-lg btn-success">Meld deg på!</a>
+              </div>
+            </div>
+          </div><!--End col-->
+        </div><!--End row-->
+      </div><!--End container-->
 
-        </div>
-        <div class="col-sm-5">
-          <img src="{% static "img/solve_banner_2.png" %}" class="img-fluid" alt="">
-        </div>
-      </div>
 
-    </div>
 
     <div class="container mt-3"> <!-- Container for content -->
       <!-- Start bounce arrow -->
@@ -85,7 +112,7 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="text-center">
-            <img src="{% static "img/solve_2.jpg" %}" class="img-fluid rounded" alt="...">
+            <img src="{% static "img/solve.jpeg" %}" class="img-fluid rounded" alt="...">
           </div>
           <br>
         </div>
@@ -341,7 +368,7 @@
     </div><!--End row-->
   </div><!--End section-->
   <br><br>
-  <div class="wrapperBg" style="background-color:#f3f0f0;">
+  <div class="wrapperBg" style="background-color:#f3f0f0;" id="medlem">
     <div class="container">
       <br><br>
       <div class="row">
