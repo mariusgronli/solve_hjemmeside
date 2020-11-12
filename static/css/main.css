@@ -3,16 +3,6 @@ body, html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 767.98px) {
-  /*By default, containers are only full-width on xs screens.
-  This makes them full-width om sm screens as well*/
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100% !important;
-  }
-}
-
 /* Background image */
 /* #backgroundImg{ */
   /* The image used */
@@ -24,6 +14,13 @@ body, html {
   /* background-size: cover; */
   /* min-height: 500px; */
 /* } */
+
+/* background teamhjemmetrent */
+
+.wrapperBg{
+  background: url(/static/img/landing3.jpg) center; 
+  background-size: cover;
+}
 
 /* Icons banner */
 .icon-banner{
