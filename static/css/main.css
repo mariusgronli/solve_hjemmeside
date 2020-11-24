@@ -32,6 +32,12 @@ body, html {
   color:#061623;
 }
 
+.banner-hjemmetrent-mobil{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  color:#061623;
+}
+
 
 .navbar-toggler-icon{
     font-size: 3rem;
