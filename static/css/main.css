@@ -3,22 +3,8 @@ body, html {
   scroll-behavior: smooth;
 }
 
-/* Background image */
-/* #backgroundImg{ */
-  /* The image used */
-  /* background: rgb(208,202,202); */
-  /* background: linear-gradient(180deg, rgba(208,202,202,1) 0%, rgba(255,255,255,1) 100%); */
-  /* background-repeat: no-repeat; */
-  /* background-size: contain; */
-  /* background: url(/static/img/landingcover.jpg) center; */
-  /* background-size: cover; */
-  /* min-height: 500px; */
-/* } */
-
-/* background teamhjemmetrent */
-
 .wrapperBg{
-  background: url(/static/img/landing3.jpg) center; 
+  background: url(/static/img/landing3.jpg) center;
   background-size: cover;
 }
 
@@ -38,6 +24,12 @@ body, html {
   font-family: 'Bungee Inline', cursive;
   color:#112d44;
   font-size:6rem;
+}
+
+.banner-hjemmetrent{
+  font-family: 'Montserrat', sans-serif;
+  font-size:4rem;
+  color:#061623;
 }
 
 
