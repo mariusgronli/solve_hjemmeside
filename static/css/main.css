@@ -51,11 +51,11 @@ body, html {
 
 /* Navbar */
 .text-sizing{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-bottom: 2px solid #19719a;
 }
 .text-sizing:hover{
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: 0.5s;
 }
 
