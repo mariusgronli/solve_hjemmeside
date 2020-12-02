@@ -3,6 +3,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="description"
+    content="Din digitale treningsopplevelse. Kjenn på den gjennomtrente følelsen akkurat der du er.
+    Med glimt-i-øyet coaching, lekent og variert programdesign og effektive øvelser holder du deg
+    sterk og gjennomtrent gjennom en hektisk hverdag">
     <title>Sølve Sundrehagen - Din trener både online og offline</title>
 
     {# CDN's #}
@@ -24,11 +28,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/main.css'%}">
 
-    <!-- Custom JS -->
-
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" style="min-height:100px;">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,6 +49,9 @@
             </ul>
           </div>
       </nav>
+      <!-- End Navbar -->
+
+      <!-- Start Banner -->
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-9"></div>
@@ -62,8 +68,9 @@
       </div>
       <br>
 
-      <div id="app">
-      <div v-if="big" class="container"> <!--Desktop-->
+    <div id="app">
+        <!--If Desktop version-->
+      <div v-if="big" class="container">
         <div class="row">
           <div class="col-sm-6 text-center">
             <img src="{% static "img/solve_banner_pic.jpg" %}" class="img-fluid" alt="">
@@ -90,7 +97,8 @@
           </div><!--End col-->
         </div><!--End row-->
       </div><!--End container-->
-      <div v-else class="container-fluid"> <!--Mobile-->
+        <!--If Mobile version-->
+      <div v-else class="container-fluid">
         <div class="row">
           <div class="col-sm-6 text-center">
             <img src="{% static "img/solve_banner_pic.jpg" %}" class="img-fluid" alt="">
@@ -118,15 +126,17 @@
         </div><!--End row-->
       </div><!--End container-->
     </div><!--End app-->
+    <!--End banner-->
 
-    <div class="container mt-3"> <!-- Container for content -->
-      <!-- Start bounce arrow -->
+    <!-- Start bounce arrow -->
+    <div class="container mt-3">
       <div class="row justify-content-center">
         <div class="downArrow bounce">
           <img width="80" height="80" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4="/>
         </div>
       </div>
       <!-- End bounce arrow -->
+
       <br>
       <br>
 
@@ -138,7 +148,6 @@
           <h1 class="text-center border-h1" id="solve">Sølve Sundrehagen</h1>
           <br>
         </div>
-
       </div>
       <div class="row">
         <div class="col-lg-5">
@@ -147,9 +156,7 @@
           </div>
           <br>
         </div>
-        <div class="col-lg-1">
-
-        </div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-6">
           <div class="wrapper-om-solve">
             <h2 class="text-center">Om meg</h2>
@@ -175,10 +182,10 @@
     <!-- End section about Sølve -->
 
     <br><br><br>
-    <div class="wrapperBg"  id="trening">
-    <!-- style="background-color:#f3f0f0;"-->
-    <!-- ilustrations -->
-    <br>
+
+    <!-- Background break #teamhjemmetrent -->
+    <div class="wrapperBg" id="trening">
+      <br>
       <div class="container">
       <div class="row">
         <div class="col-lg-3"></div>
@@ -239,8 +246,8 @@
         </div>
       </div>
       <br>
-    </div> <!--End container -->
-  </div> <!--End wrapperBg -->
+      </div> <!--End container -->
+    </div> <!--End wrapperBg -->
 
   <br><br><br>
   <div class="container">
